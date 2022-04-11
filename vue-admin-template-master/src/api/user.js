@@ -1,9 +1,11 @@
 import request from '@/utils/request'
 
 export function login(data) {
+  console.log('这是api里面的data',data);
   return request({
     url: '/admin/acl/index/login',
     method: 'post',
+    // contentType:"application/json",
     data
   })
 }

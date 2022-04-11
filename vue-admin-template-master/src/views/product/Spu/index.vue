@@ -204,7 +204,7 @@ export default {
     },
     //关闭对话框回调
     close(){
-      this.loading= true
+      this.loading= false
       this.skuList = []
       done()
     }
